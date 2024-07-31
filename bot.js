@@ -1,4 +1,4 @@
-const { WebSocketProvider } = require("ethers");
+const { WebSocketProvider, Contract } = require("ethers");
 require("dotenv").config();
 const blockchain = require("./blockchain.json");
 
