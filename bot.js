@@ -10,7 +10,7 @@ const factory = new Contract(
 );
 
 const init = () => {
-    //setup an event listener for new liquidity
+    //setup an event listener for new liquidity pool
     factory.on("PairCreated", (token0, token1, pairAddress) => {
         console.log(`
             New pair detected
